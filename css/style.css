@@ -1,0 +1,247 @@
+/*
+DEVELOPER BY: FRANCISCO GARCIA
+DATE: 26-12-2020
+DESCRIPTION: STYLE FOR ALL DOCUMENT
+LICENSE: N/A
+*/
+/*__ RESET VALUES __*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #004e92;
+    height: auto;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+}
+/*_______________ INDEX.HTML _______________*/
+/*__ MENU __*/
+.nav-bar{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li:hover{
+    background: #0078E0;
+}
+nav ul li a{
+    color: white;
+    padding: 10px;
+    display: block;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/*__ LINKS __*/
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.links div{
+    background-color: #004e92;
+    border: 1px solid #25373D;
+    flex: 31%;
+    max-width: 35%;
+    text-align: center;
+    -webkit-box-shadow: 14px -5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px -5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px -5px 5px 0px rgba(0,0,0,0.75);
+}
+.links div:hover{
+    background: #0078E0;
+}
+.links div a{
+    display: block;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 10px;
+}
+
+/*__ BACKGROUND IMAGE __*/
+
+.image-opacity{
+    height: 500px;
+    background-color: #004e92;
+    position: relative;
+}
+.image-opacity img{
+    
+    width: 100%;
+    opacity: 0.7;
+    height: 100%;
+}
+
+/*__ BACKGROUNDS __*/
+
+.bg-section-mod-dark {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #203A43;
+}
+.bg-section-mod-dark h2{
+    color: white;
+}
+.bg-section-mod-white{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #EBEBEB;
+}
+
+/*__ SKILLSET __*/
+
+.skills, .portafolio, .certificate{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.skills img{
+    width: 80px;
+    height: 80px;
+    border-radius: 0.8em;
+}
+/*__ PORTAFOLIO AND CERTIFICATE __*/
+.portafolio, .certificate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio div h3{
+    margin-top: 2%;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.portafolio div .btn{
+    width: 100%;
+    outline: none;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    background: #004E92;
+    color: white;
+    font-weight: bold;
+}
+.portafolio div .btn:hover{
+    background: #0078E0;
+}
+.portafolio img{
+    width: 400px;
+    height: 350px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+margin-top: 3%;
+}
+.certificate img{
+    width: 450px;
+    height: 380px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+margin-top: 3%;
+}
+
+/*__ EXPRENCIENTE __*/
+.experience{
+    display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.experience h4{
+    border-radius: 0.5em;
+border: 1px solid white;
+padding: 10px;
+font-family: 'Audiowide', cursive;
+}
+.experience .cell{
+    width: 30%;
+margin: 10px;
+text-align: center;
+color: white;
+}
+
+/*__ CONTACT US __*/
+.contact-phone-right{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.contact-phone-right a{
+    display: block;
+}
+.contact-phone-right img{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/*__ OTHERS __*/
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 50px;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+   margin-left: 0;
+   margin-right: 0;
+   right: 0;
+   text-align: center;
+}
+
+h2{
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}   
+/*__ MEDIA QUERIES __*/
+@media (max-width: 480px) and (min-width: 300px){
+    nav ul li a{
+        font-size: 12px;
+    }
+    .links div{
+        flex: 26%;
+        max-width: 33%;
+    }
+    .experience .cell{
+        width: 100%;
+    }
+    .certificate img, .portafolio img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width: 700px) and (min-width: 480px){
+    .links div{
+        flex: 29%;
+    }
+    .experience .cell{
+        width: 45%;
+    }
+    .certificate img{
+        width: 450px;
+    }
+}

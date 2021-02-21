@@ -1,0 +1,19 @@
+header{
+    background: linear-gradient(to right, #04005E, #003da6);
+    height: auto;
+}
+.btn-infoozle-primary{
+    background: linear-gradient(to right, #04005E, #003da6);
+    color: white;
+}
+
+.btn-infoozle-primary:hover{
+    background: linear-gradient(to left, #05007C, #1067FB);
+    color: white;
+}
+.margin-top-buttom-search{
+    margin-top: 3%;
+}
+.chart-hidden{
+    overflow: hidden;
+}

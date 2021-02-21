@@ -1,0 +1,104 @@
+/*
+DEVELOPER BY: FRANCISCO GARCIA;
+DATE: 08-01-2019;
+DESCRIPTION: HOJA DE ESTILOS PARA LA EMRPESA EUROTOPRES;
+LICENSE: N/A;
+MODIFIED FIRST: 05-07-2020
+*/
+/********** - FONTS- *************************/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+/***********************************/
+
+main{
+	margin-top: 5%;
+}
+input, .margin-top-selector{
+	margin-bottom: 4%;
+}
+label{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+footer{
+	text-align: center;
+}
+form{
+	margin-top: 3%;
+}
+/***********************************/
+.body-color-first{
+	background-color: #9898F1;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.header-color-first, .footer-color-first{
+	background-color: black;
+}
+.header-tittle, .footer-tittle{
+	padding-top: 2.5%;
+	padding-bottom: 2%;
+}
+.header-color-first h5, .footer-tittle p{
+	font-weight:  bold;
+}
+.text-color-first{
+	color: #80017F;
+}
+.text-color-secound{
+	color: #3736AF;
+}
+.btn-color-first{
+	background-color: #80017F;
+	color: white;
+}
+.btn-color-secound{
+	background-color: #3736AF;
+	color: white;
+}
+.width-img-panel{
+	width: 25%;
+}
+.btn-color-first:hover{
+	background-color: #4D004D;
+}
+.euro_usuario{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.table_agenda{
+	height: 300px;
+	overflow-y: scroll;
+}
+.modal_datos{
+	margin-top: 2%;
+}
+/*MEDIA QUERYS*/
+@media (min-width: 300px) and (max-width: 575px){
+	.width-logo-index{
+		width: 80%;
+	}
+	.width-img-panel{
+		width: 60%;
+	}
+	.row .col-sm-8, .row .col-sm-12{
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+}
+@media (min-width: 576px) and (max-width: 610px){
+	.width-img-panel{
+		width: 60%;
+	}
+}
+@media (min-width: 611px) and (max-width: 767px){
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (min-width: 1200px) and (max-width: 1365px) {
+	
+}

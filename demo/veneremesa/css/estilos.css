@@ -1,0 +1,169 @@
+/*
+Autor: Francisco Garcia;
+Version: 1.0;
+Descripcion: Estilos css para la pagina Veneremesa.com;
+*/
+/*TIPOGRAFIAS*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*CSS*/
+body{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+main{
+	margin-bottom: 2%;
+}
+main .row{
+	margin-bottom: 2%;
+}
+.padding-text{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+ul li a{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+footer p, footer a span{
+	padding-top: 2%;
+	color:black;
+	font-weight: bold;
+	font-size: 14px;
+}
+.background-header{
+	height: 150px;
+	background: linear-gradient(50deg, #FFF766 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(50deg, #60C5F1 66%, #F47378 66%);
+	padding-top: 3%;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+.background-footer{
+	height: 150px;
+	background: linear-gradient(120deg, #FFF766 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(120deg, #60C5F1 66%, #F47378 66%);
+	padding-top: 3%;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.text-content{
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+}
+.section1 .fondo{
+width: 100%;
+height: 500px;
+border-bottom: 5px solid black;
+opacity: 0.8;
+}
+.section1 .logo{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+}
+.conversor h4{
+	margin-bottom: 2%;
+}
+.conversor input{
+	border: 4px solid black;
+	margin-bottom: 1%;
+	color: #FFF;
+}
+.conversor .bg-secondary{
+	font-weight: bold;
+	font-size: 20px;
+}
+.section2{
+	border-top: 5px solid black;
+	padding-top: 2%;
+}
+.section2 img{
+	margin-bottom: 1%;
+	opacity: 0.5;
+}
+.section2 h5{
+	font-weight: bold;
+}
+footer a{
+	color: black;
+}
+.index-color{
+	color:#F47378;
+}
+.table-tazas{
+	height: 400px;
+	overflow-y: scroll;
+}
+input[type="number"]{
+	-moz-appearance:textfield;
+	-webkit-appearance:textfield;
+	-o-appearance:textfield;
+}
+/*MEDIA QUERYS*/
+@media only screen and (max-width: 375px) {
+.section1 .logo{
+	width: 50%;
+	height: 80px;
+}
+.section1 .fondo{
+width: 100%;
+height: 300px;
+}
+.conversor h4{
+	font-size: 20px;
+}
+footer p{
+	margin-top: 10%;
+}
+}
+@media only screen and (max-width: 667px) {
+.section1 .logo{
+	width: 50%;
+	height: 80px;
+}
+.section1 .fondo{
+width: 100%;
+height: 300px;
+}
+.conversor h4{
+	font-size: 20px;
+}
+footer p{
+	margin-top: 5%;
+}	
+}
+@media only screen and (max-width: 736px){
+.section1 .logo{
+	width: 50%;
+	height: 80px;
+}
+.section1 .fondo{
+width: 100%;
+height: 300px;
+}
+.conversor h4{
+	font-size: 20px;
+}
+footer p{
+	margin-top: 5%;
+}	
+}
+@media only screen and (max-width: 746px){
+.section1 .logo{
+	width: 50%;
+	height: 80px;
+}
+.section1 .fondo{
+width: 100%;
+height: 350px;
+}
+.conversor h4{
+	font-size: 20px;
+}
+footer p{
+	margin-top: 5%;
+}	
+}

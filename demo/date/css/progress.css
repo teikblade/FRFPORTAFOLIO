@@ -1,0 +1,34 @@
+progress[value] {
+    /* Elimino la apariencia por defecto */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+     
+    /* Quito el borde que aparece en Firefox */
+    border: none;
+ 
+    /* Añado mis propios estilos */
+    width: 100%;
+    height: 30px;
+    overflow:hidden;
+}
+progress::-moz-progress-value {
+    ackground-color:#D8D8D8;
+    border-radius : 5px ;  
+}
+progress::-webkit-progress-value {
+    background: #1C69A9;
+    border-radius : 5px;  
+}
+/*BARRA DE PROGRESO DE FIREFOX*/
+progress::-moz-progress-bar{
+    background: #1C69A9;
+    border-radius : 5px;
+}
+/*BARRA DE PROGRESO EN CHROME*/
+progress::-webkit-progress-bar {
+    background-color:#D8D8D8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; /*esta sombra es para simular el borde que he aplicado arriba para Mozilla*/
+    border-radius : 5px ;         
+}
+ 
