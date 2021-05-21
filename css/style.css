@@ -103,7 +103,7 @@ nav ul li a{
 
 /*__ SKILLSET __*/
 
-.skills, .portafolio, .certificate{
+.skills, .portafolio, .certificate, .figma{
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
@@ -115,19 +115,19 @@ nav ul li a{
     border-radius: 0.8em;
 }
 /*__ PORTAFOLIO AND CERTIFICATE __*/
-.portafolio, .certificate {
+.portafolio, .certificate, .figma {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.portafolio div h3{
+.portafolio div h3, .figma div h3{
     margin-top: 2%;
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.portafolio div .btn{
+.portafolio div .btn, .figma div .btn{
     width: 100%;
     outline: none;
     border-radius: 0.5em;
@@ -138,9 +138,19 @@ nav ul li a{
     color: white;
     font-weight: bold;
 }
-.portafolio div .btn:hover{
+.portafolio div .btn:hover, .figma div .btn:hover{
     background: #0078E0;
 }
+.figma img{
+    width: 400px;
+    height: auto;
+    border: 2px solid #333;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+box-shadow: 10px 10px 5px 0px rgba(105,105,105,1);
+margin-top: 3%;
+}
+
 .portafolio img{
     width: 400px;
     height: 350px;
